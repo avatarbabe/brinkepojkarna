@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Content, frontmatter } from '../content/startpage.md';
 ---
 
 <Layout title="Welcome to Astro.">
 	<main>
-		<h1>Brinkepojkarna 👨‍🌾</h1>
+		<h1>{frontmatter.title} 👨‍🌾</h1>
     	<img src="/brinkepojkar.png" />
+		<Content />
 	</main>
 </Layout>
 
