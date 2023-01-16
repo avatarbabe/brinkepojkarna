@@ -18,7 +18,7 @@ export default defineConfig({
                         files: [{
                             name: "startpage",
                             label: "Startsida",
-                            file: "content/startpage.md",
+                            file: "src/content/startpage.md",
                             fields: [
                                 { name: 'title', widget: 'string', label: 'Titel' },
                                 { name: 'body', widget: 'markdown', label: 'Innehåll' },
