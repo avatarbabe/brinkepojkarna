@@ -55,18 +55,22 @@ const { title } = Astro.props;
 
   header {
     font-weight: 600;
-    padding: 20px;
+    padding: 10px 0;
 
     .max-width {
       display: flex;
+      padding: 0 10px;
     }
 
     a {
       display: block;
-      padding: 5px 30px;
+      height: 50px;
+      line-height: 50px;
+      padding: 0 20px;
+      text-align: center;
 
-      + a {
-        border-left: 1px solid #e3e3e3;
+      &:hover {
+        text-decoration: underline;
       }
     }
   }
@@ -87,7 +91,7 @@ const { title } = Astro.props;
   }
 
   .btn {
-    @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-100 rounded-lg focus:ring-4 focus:ring-gray-100;
+    @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-100 rounded-lg focus:ring-4 focus:ring-stone-300;
     text-decoration: none;
     background-color: #3e4543;
     font-weight: 600;
@@ -102,7 +106,7 @@ const { title } = Astro.props;
 
   footer {
     min-height: 215px;
-    background-color: #E7E2D8;
+    background-color: #e7e2d8;
     > * {
       padding: 50px 30px;
     }

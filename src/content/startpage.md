@@ -1,6 +1,6 @@
 ---
 title: Brinkepojkarna
-preamble: Hej och välkommen till brinkepojkarnas hemsida, här har vi samlat information kring vår släkt
+preamble: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod elementum nisi quis eleifend.
 link: /historia
 linkText: Läs mer om vår historia
 ---
