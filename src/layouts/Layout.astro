@@ -30,6 +30,7 @@ const { title } = Astro.props;
         <a href="/">Hem</a>
         <a href="/slakttrad">Släktträd</a>
         <a href="/historia">Historia</a>
+        <a href="/historia">Släktforskning</a>
       </div>
     </header>
     <slot />
@@ -59,7 +60,8 @@ const { title } = Astro.props;
 
     .max-width {
       display: flex;
-      padding: 0 10px;
+      flex-flow: row wrap;
+      padding: 0 15px;
     }
 
     a {
