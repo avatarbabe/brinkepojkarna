@@ -59,6 +59,40 @@ export default defineConfig({
                 ],
               },
               {
+                name: "slaktforskning",
+                label: "Släktforskning",
+                file: "src/content/slaktforskning.md",
+                fields: [
+                  {
+                    name: "title",
+                    widget: "string",
+                    label: "Titel",
+                  },
+                  {
+                    name: "body",
+                    widget: "markdown",
+                    label: "Innehåll",
+                  },
+                ],
+              },
+              {
+                name: "historia",
+                label: "Historia",
+                file: "src/content/historia.md",
+                fields: [
+                  {
+                    name: "title",
+                    widget: "string",
+                    label: "Titel",
+                  },
+                  {
+                    name: "body",
+                    widget: "markdown",
+                    label: "Innehåll",
+                  },
+                ],
+              },
+              {
                 name: "hans-ake",
                 label: "Hans-åke",
                 file: "src/content/hans-ake.md",

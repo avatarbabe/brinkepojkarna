@@ -30,7 +30,7 @@ const { title } = Astro.props;
         <a href="/">Hem</a>
         <a href="/slakttrad">Släktträd</a>
         <a href="/historia">Historia</a>
-        <a href="/historia">Släktforskning</a>
+        <a href="/slaktforskning">Släktforskning</a>
       </div>
     </header>
     <slot />
@@ -55,7 +55,7 @@ const { title } = Astro.props;
   }
 
   header {
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px 0;
 
     .max-width {
@@ -96,7 +96,7 @@ const { title } = Astro.props;
     @apply inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-100 rounded-lg focus:ring-4 focus:ring-stone-300;
     text-decoration: none;
     background-color: #3e4543;
-    font-weight: 600;
+    font-weight: 500;
     &:hover {
       background-color: darken(#3e4543, 5);
     }
