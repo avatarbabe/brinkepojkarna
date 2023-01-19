@@ -1,13 +1,18 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import { Content, frontmatter } from '@/content/per.md';
+import Layout from "@/layouts/Layout.astro";
+import { Content, frontmatter } from "@/content/per.md";
 ---
 
 <Layout title="Brinkepojkarna - Per">
-	<main>
-		<Content />
-	</main>
+  <main>
+    <section>
+      <div class="max-width">
+        <div class="prose">
+          <Content />
+        </div>
+      </div>
+    </section>
+  </main>
 </Layout>
 
-<style>
-</style>
+<style></style>
